@@ -19,9 +19,12 @@ We need to install React so we use the Node Package Manager `npm install --save 
 
 We also need to install `npm install --save react-dom`
 
-We need to add Bootstrap for styling `meteor add twbs:bootstrap@3.3.6`
+Add Bootstrap for styling `meteor add twbs:bootstrap@3.3.6`
+
+Axios for an [Ajax request](https://github.com/mzabriskie/axios)
+
+
 
 Notes
 ================
 `<ImageDetail image={image} />` This is passing the image property to image detail (prop).
-
