@@ -14,3 +14,6 @@ const App = () => {
 };
 
 // Render this component to the screen
+Meteor.startup(() => {
+    ReactDOM.render(<App />, document.querySelector('.container'));
+});
