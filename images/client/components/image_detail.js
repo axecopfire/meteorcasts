@@ -5,7 +5,10 @@ const ImageDetail = (props) => {
     // props.image.title
     // props.image.link
     return (
-        <div>{props.image.title}</div>
+        <li>
+            <img src={props.image.link} />
+            {props.image.title}
+        </li>
     );
 };
 
