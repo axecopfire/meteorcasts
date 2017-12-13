@@ -23,6 +23,7 @@ Add Bootstrap for styling `meteor add twbs:bootstrap@3.3.6`
 
 Axios for an [Ajax request](https://github.com/mzabriskie/axios)
     `npm install --save axios`
+    >Some people will get an error "If you notice problems related to these missing modules, consider running: `meteor npm install --save meteor-node-stubs` _do that if necessary_
 
 Notes
 ================
