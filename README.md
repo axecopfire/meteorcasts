@@ -22,7 +22,7 @@ We also need to install `npm install --save react-dom`
 Add Bootstrap for styling `meteor add twbs:bootstrap@3.3.6`
 
 Axios for an [Ajax request](https://github.com/mzabriskie/axios)
-    `npm install axios`
+    `npm install --save axios`
 
 Notes
 ================
