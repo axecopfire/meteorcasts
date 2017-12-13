@@ -12,3 +12,4 @@ const ImageList = () => {
 };
 
 // Export our component
+export default ImageList;
