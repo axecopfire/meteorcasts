@@ -17,3 +17,4 @@ Then we deleted the __Client__ and __Server__ folders so we can start from scrat
 
 We need to install React so we use the Node Package Manager `npm install --save react`
 
+We also need to install `npm install --save react-dom`
