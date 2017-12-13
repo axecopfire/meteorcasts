@@ -1,7 +1,7 @@
 // Any JS in here is automatically ran for us
 
 // Import the React library
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 
