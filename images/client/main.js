@@ -13,15 +13,16 @@ class App extends Component {
     constructor(props) {
         super(props);
 
-        this.state= { images: [] };
+        this.state = { images: [] };
     }
 
     componentWillMount() {
         // Fantastic place to load data!
         axios.get('https://api.imgur.com/3/gallery/hot/viral/0')
-            .then(response => console.log(response));
+            .then(response => this.setState({ images: response.data.data }));
     }
     render() {
+        console.log(this.state.images);
         return (
             <div>
                 <ImageList />
