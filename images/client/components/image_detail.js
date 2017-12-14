@@ -13,6 +13,7 @@ const ImageDetail = (props) => {
                 <h4 className='media-heading'>
                     {props.image.title}
                 </h4>
+                <p>{props.image.description}</p>
             </div>
         </li>
     );
