@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ImageScore from './image_score';
+
 const ImageDetail = (props) => {
     // props.image => this is the image object
     // props.image.title
@@ -14,6 +16,7 @@ const ImageDetail = (props) => {
                     {props.image.title}
                 </h4>
                 <p>{props.image.description}</p>
+                <ImageScore ups={props.image.ups} downs={props.image.downs} />
             </div>
         </li>
     );
