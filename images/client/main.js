@@ -23,11 +23,11 @@ class App extends Component {
         // NEVER DO THIS -
         // this.state.images = [ {}, {} ];
     }
+
     render() {
-        console.log(this.state.images);
         return (
             <div>
-                <ImageList />
+                <ImageList images={this.state.images} />
             </div>
         );
     }
