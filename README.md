@@ -4,12 +4,20 @@
 
 Here's a ref to [Stephen's code for this course](https://github.com/stephengrider/meteorcasts)
 
+# For Initial install
+================================
+
 Need to install chocolatey to install Meteor for Windows.
 [Find that Here](https://chocolatey.org/install)
 
 Need to install Meteor.js (With Chocolatey) just type `choco install meteor`
 
+
+# Boilerplate
+================================
+
 After that we run the command `meteor create images` (This creates the package.json and some other boilerplate)
+    * On windows I had to be an admin
 
 To start web server `cd images` then `meteor`
 
