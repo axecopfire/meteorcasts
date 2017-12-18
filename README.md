@@ -33,6 +33,11 @@ Axios for an [Ajax request](https://github.com/mzabriskie/axios)
     `npm install --save axios`
     >Some people will get an error "If you notice problems related to these missing modules, consider running: `meteor npm install --save meteor-node-stubs` _do that if necessary_
 
+## Employees Boilerplate
+
+`npm install faker`
+
+
 Notes
 ================
 `<ImageDetail image={image} />` This is passing the image property to image detail (prop).
