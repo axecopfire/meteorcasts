@@ -42,6 +42,11 @@ To install the npm package that is helpful for fake data generation
 To remove automatic publishing of server collections for client querying:
 `meteor remove autopublish`
 
+Required boilerplate for react-meteor-data
+`npm install --save react-addons-pure-render-mixin`
+
+Watch collections and subscriptions
+`meteor add react-meteor-data`
 
 Notes
 ================
