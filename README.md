@@ -35,7 +35,12 @@ Axios for an [Ajax request](https://github.com/mzabriskie/axios)
 
 ## Employees Boilerplate
 
+
+To install the npm package that is helpful for fake data generation
 `npm install --save faker lodash`
+
+To remove automatic publishing of server collections for client querying:
+`meteor remove autopublish`
 
 
 Notes
