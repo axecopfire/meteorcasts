@@ -35,7 +35,7 @@ Axios for an [Ajax request](https://github.com/mzabriskie/axios)
 
 ## Employees Boilerplate
 
-`npm install faker`
+`npm install --save faker lodash`
 
 
 Notes
