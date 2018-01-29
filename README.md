@@ -48,6 +48,9 @@ Required boilerplate for react-meteor-data
 Watch collections and subscriptions
 `meteor add react-meteor-data`
 
+Gotta Add that TWBS again
+`meteor add twbs:bootstrap@3.3.6`
+
 Notes
 ================
 `<ImageDetail image={image} />` This is passing the image property to image detail (prop).
