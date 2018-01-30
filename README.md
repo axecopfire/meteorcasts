@@ -85,3 +85,4 @@ Meteor.startup(() => {
 `meteor add twbs:bootstrap@3.3.6`
 `meteor remove insecure`
 `npm install --save valid-url`
+`meteor remove autopublish`
