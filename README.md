@@ -13,8 +13,8 @@ Need to install chocolatey to install Meteor for Windows.
 Need to install Meteor.js (With Chocolatey) just type `choco install meteor`
 
 ### Handy note
-    `meteor create --bare` to create an empty app
-    `meteor create --full` to create a scaffolded app
+`meteor create --bare` to create an empty app
+`meteor create --full` to create a scaffolded app
 
 ============================================
 # Images Boilerplate
