@@ -82,3 +82,5 @@ Meteor.startup(() => {
 ============================================
 
 `npm install --save react react-dom`
+`meteor add twbs:bootstrap@3.3.6`
+
