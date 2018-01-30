@@ -88,3 +88,4 @@ Meteor.startup(() => {
 `meteor remove autopublish`
 `npm install --save react-addons-pure-render-mixin`
 `meteor add react-meteor-data`
+`npm install --save connect-route`
