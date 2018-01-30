@@ -89,3 +89,10 @@ Meteor.startup(() => {
 `npm install --save react-addons-pure-render-mixin`
 `meteor add react-meteor-data`
 `npm install --save connect-route`
+
+============================================
+# Markbin
+============================================
+
+`meteor add react-meteor-data`
+`npm install --save react react-dom react-addons-pure-render-mixin`
