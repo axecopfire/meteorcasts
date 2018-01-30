@@ -81,3 +81,4 @@ Meteor.startup(() => {
 # SHORTEN MY LINK
 ============================================
 
+`npm install --save react react-dom`
