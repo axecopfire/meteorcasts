@@ -86,3 +86,5 @@ Meteor.startup(() => {
 `meteor remove insecure`
 `npm install --save valid-url`
 `meteor remove autopublish`
+`npm install --save react-addons-pure-render-mixin`
+`meteor add react-meteor-data`
