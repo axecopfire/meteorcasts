@@ -98,7 +98,11 @@ Meteor.startup(() => {
 `npm install --save react react-dom react-addons-pure-render-mixin`
 `meteor add twbs:bootstrap@3.3.6`
 `meteor add accounts-ui accounts-password`
+`meteor remove insecure`
+`meteor remove autopublish`
+
 #### Concatenated 
 ---
 `meteor add react-meteor-data twbs:bootstrap@3.3.6 accounts-ui accounts-password`
 `npm install --save react react-dom react-addons-pure-render-mixin`
+`meteor remove insecure autopublish`
