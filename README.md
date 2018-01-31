@@ -5,7 +5,7 @@
 Here's a ref to [Stephen's code for this course](https://github.com/stephengrider/meteorcasts)
 
 # For Initial install
-================================
+---
 
 Need to install chocolatey to install Meteor for Windows.
 [Find that Here](https://chocolatey.org/install)
@@ -16,9 +16,9 @@ Need to install Meteor.js (With Chocolatey) just type `choco install meteor`
 `meteor create --bare` to create an empty app
 `meteor create --full` to create a scaffolded app
 
-============================================
+---
 # Images Boilerplate
-============================================
+---
 
 After that we run the command `meteor create images` (This creates the package.json and some other boilerplate)
     * On windows I had to be an admin
@@ -55,13 +55,13 @@ Watch collections and subscriptions
 Gotta Add that TWBS again
 `meteor add twbs:bootstrap@3.3.6`
 
-Notes
-================
+###### Notes
+---
 `<ImageDetail image={image} />` This is passing the image property to image detail (prop).
 
 
-React Boilerplate for Main.js
-===============
+##### React Boilerplate for Main.js
+---
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -77,9 +77,9 @@ Meteor.startup(() => {
     ReactDOM.render(<App />, document.querySelector('.container'));
 });
 
-============================================
+---
 # SHORTEN MY LINK
-============================================
+---
 
 `npm install --save react react-dom`
 `meteor add twbs:bootstrap@3.3.6`
@@ -90,11 +90,15 @@ Meteor.startup(() => {
 `meteor add react-meteor-data`
 `npm install --save connect-route`
 
-============================================
+---
 # Markbin
-============================================
+---
 
 `meteor add react-meteor-data`
 `npm install --save react react-dom react-addons-pure-render-mixin`
 `meteor add twbs:bootstrap@3.3.6`
 `meteor add accounts-ui accounts-password`
+#### Concatenated 
+---
+`meteor add react-meteor-data twbs:bootstrap@3.3.6 accounts-ui accounts-password`
+`npm install --save react react-dom react-addons-pure-render-mixin`
