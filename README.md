@@ -100,9 +100,10 @@ Meteor.startup(() => {
 `meteor add accounts-ui accounts-password`
 `meteor remove insecure`
 `meteor remove autopublish`
+`npm install --save react-router@3.x.x`
 
 #### Concatenated 
 ---
 `meteor add react-meteor-data twbs:bootstrap@3.3.6 accounts-ui accounts-password`
-`npm install --save react react-dom react-addons-pure-render-mixin`
+`npm install --save react react-dom react-addons-pure-render-mixin react-router@3.x.x`
 `meteor remove insecure autopublish`
