@@ -103,9 +103,10 @@ Meteor.startup(() => {
 `npm install --save react-router@3.x.x`
 `npm install --save react-codemirror`
 `meteor add sgslo:cmstyle`
+`npm install --save markdown`
 
 #### Concatenated
 ---
 `meteor add react-meteor-data twbs:bootstrap@3.3.6 accounts-ui accounts-password sgslo:cmstyle`
-`npm install --save react react-dom react-addons-pure-render-mixin react-router@3.x.x react-codemirror`
+`npm install --save react react-dom react-addons-pure-render-mixin react-router@3.x.x react-codemirror markdown`
 `meteor remove insecure autopublish`
